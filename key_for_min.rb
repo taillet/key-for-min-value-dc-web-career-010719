@@ -7,6 +7,7 @@ def key_for_min_value(name_hash)
     if value <= number
       number = value
     end
+  end
     return number 
 
 
