@@ -7,12 +7,12 @@ def key_for_min_value(name_hash)
   if name_hash.empty? == true
     return nil
   else
-  name_hash.each do |key, value|
-    if value <= number
-      number = value
-      name = key
+    name_hash.each do |key, value|
+      if value <= number
+        number = value
+        name = key
+      end
     end
   end
-end
     return name
 end
